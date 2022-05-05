@@ -1,0 +1,62 @@
+/* mobile */
+@media (max-width:739px)
+{
+    .header{
+        overflow: hidden;
+    }
+    .nav > li{
+        display: block;
+    }
+    .header__icon-search{
+        display: none;
+    }
+    .header__icon-menu{
+        display: block;
+    }
+    /* member css */
+    
+    .member-item{
+        width: 100%;
+    }
+    /* css place */
+    .place-item
+    {
+        width:100%;
+        margin-bottom: 10px;
+    }
+    .place__content,
+    .place__img{
+        width: 100%;
+    }
+    /* contact */
+    .infor__input,
+    .contact__item{
+        width: 100%;
+    }
+    .contact--space{
+        padding-left:0;
+    }
+    .contact__infor{
+        margin-top:10px;
+    }
+    /* css map */
+    .map__img{
+        height: auto;
+
+    }
+}
+
+/* tabnet */
+@media (min-width: 740px) and (max-width: 1023px)
+{
+    .map__img{
+        height: auto;
+
+    }
+}
+
+/* pc */
+@media (min-width:1024px)
+{
+
+}
